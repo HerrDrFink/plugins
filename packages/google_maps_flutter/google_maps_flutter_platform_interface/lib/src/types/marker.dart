@@ -133,7 +133,7 @@ class Marker implements MapsObject {
   /// * is placed at the base of the drawing order; [zIndex] is 0.0
   /// * reports [onTap] events
   /// * reports [onDragEnd] events
-  const Marker({
+  Marker({
     required this.markerId,
     this.alpha = 1.0,
     this.anchor = const Offset(0.5, 1.0),

@@ -183,7 +183,7 @@ class Marker implements MapsObject {
   final bool flat;
 
   /// A description of the bitmap used to draw the marker icon.
-  final BitmapDescriptor icon;
+  BitmapDescriptor icon;
 
   /// A Google Maps InfoWindow.
   ///

@@ -48,7 +48,7 @@ class Polygon implements MapsObject {
   final bool consumeTapEvents;
 
   /// Fill color in ARGB format, the same format used by Color. The default value is black (0xff000000).
-  final Color fillColor;
+  Color fillColor;
 
   /// Indicates whether the segments of the polygon should be drawn as geodesics, as opposed to straight lines
   /// on the Mercator projection.

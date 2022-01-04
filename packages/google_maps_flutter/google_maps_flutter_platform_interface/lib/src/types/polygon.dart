@@ -22,7 +22,7 @@ class PolygonId extends MapsObjectId<Polygon> {
 @immutable
 class Polygon implements MapsObject {
   /// Creates an immutable representation of a polygon through geographical locations on the map.
-  const Polygon({
+  Polygon({
     required this.polygonId,
     this.consumeTapEvents = false,
     this.fillColor = Colors.black,

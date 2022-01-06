@@ -207,7 +207,7 @@ class Marker implements MapsObject {
   final double zIndex;
 
   /// Callbacks to receive tap events for markers placed on this map.
-  final VoidCallback? onTap;
+  VoidCallback? onTap;
 
   /// Signature reporting the new [LatLng] at the start of a drag event.
   final ValueChanged<LatLng>? onDragStart;

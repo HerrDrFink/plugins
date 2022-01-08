@@ -1,4 +1,4 @@
-name: google_maps_flutter_platform_interface_martin
+name: google_maps_flutter_platform_interface
 description: A common platform interface for the google_maps_flutter plugin.
 repository: https://github.com/flutter/plugins/tree/master/packages/google_maps_flutter/google_maps_flutter
 issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+maps%22
